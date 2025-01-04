@@ -1,15 +1,205 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>HoverTranslate – Instant YouTube Subtitles Translation!</title>
+    <style>
+        /* Basic Page Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header, footer {
+            background: #333;
+            color: #fff;
+            padding: 1rem 2rem;
+        }
+
+        header h1, header p {
+            margin: 0;
+            padding: 0.2rem 0;
+        }
+
+        nav {
+            margin-top: 0.5rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .hero h2 {
+            font-size: 1.6rem;
+            margin-bottom: 0.5rem;
+            color: #444;
+        }
+
+        .hero p {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.7rem 1.2rem;
+            color: #fff;
+            background-color: #0066cc;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #0055a3;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .feature-item {
+            flex: 1 1 300px;
+            background: #fafafa;
+            border: 1px solid #eee;
+            border-radius: 4px;
+            padding: 1rem;
+        }
+
+        .feature-item h3 {
+            margin-top: 0;
+            color: #444;
+        }
+
+        .cta-section {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .copyright {
+            font-size: 0.9rem;
+            color: #bbb;
+            margin-top: 0.5rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .features {
+                flex-direction: column;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Home</h1>
-    <a href="/privacy.html">Privacy Policy</a>
-    <a href="/privacy">Privacy Policy2</a>
+
+<header>
+    <h1>HoverTranslate</h1>
+    <p>Instant YouTube Subtitles Translation</p>
+    <nav>
+        <!-- Update links as needed -->
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="/privacy">Privacy Policy</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Learn Languages Effortlessly</h2>
+        <p>Hover over any word in YouTube subtitles to see its translation, or select a whole phrase for a quick, instant translation!</p>
+        <a class="btn" href="https://chrome.google.com/webstore" target="_blank">Get HoverTranslate</a>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="features">
+            <div class="feature-item">
+                <h3>Instant Hover Translation</h3>
+                <p>Just hover over a single word in the subtitles, and the translation will appear immediately.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Phrase &amp; Sentence Translation</h3>
+                <p>Select multiple words (holding Shift) to translate entire phrases or sentences.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Supports 190+ Languages</h3>
+                <p>Translate from virtually any language to your native language with ease.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Auto Language Detection</h3>
+                <p>HoverTranslate automatically detects the language of the subtitles.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Auto-Pause Feature</h3>
+                <p>Videos automatically pause when you hover over subtitles, ensuring you never miss a single word.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Works with Auto-Generated Subtitles</h3>
+                <p>Even auto-generated subtitles on YouTube can be translated with a simple hover.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <p>
+            1. Install HoverTranslate from the Chrome Web Store.<br>
+            2. Enable the extension and sign in with Google.<br>
+            3. Play a YouTube video with subtitles.<br>
+            4. Hover your mouse over any word or select multiple words to see an instant translation.<br>
+            5. You can manage the extension’s settings or sign out at any time.
+        </p>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <h2>Start Learning Today!</h2>
+        <p>HoverTranslate makes it easy to pick up new words and phrases as you watch foreign-language videos on YouTube.</p>
+        <a class="btn" href="https://chrome.google.com/webstore" target="_blank">Install Now</a>
+    </section>
+</main>
+
+<!-- Contact / Footer -->
+<footer id="contact">
+    <p>Contact us at: <a href="mailto:hovertranslate@gmail.com" style="color:#fff;">hovertranslate@gmail.com</a></p>
+    <p class="copyright">
+        &copy; 2025 HoverTranslate. All rights reserved.
+    </p>
+</footer>
+
 </body>
 </html>
